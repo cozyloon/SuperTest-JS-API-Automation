@@ -1,5 +1,5 @@
 const request = require('supertest');
-const dotenv = require('dotenv'); // Import dotenv to use it
+const dotenv = require('dotenv'); 
 const { getAuthToken } = require('../util/authHelper');
 const enrichmentAlertPayload = require("../payloads/EnrichmentAlert.json");
 
@@ -7,7 +7,7 @@ describe('Enrichment Alert Creation', () => {
     let authToken;
     let patBaseurl;
 
-    beforeAll(async () => { // Use async for beforeAll if async operations are present
+    beforeAll(async () => { 
         const env = process.env.ENV || 'sso';
         dotenv.config({ path: `.env.${env}` });
 
