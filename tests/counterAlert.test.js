@@ -1,5 +1,5 @@
 const request = require('supertest');
-const dotenv = require('dotenv'); // Import dotenv to use it
+const dotenv = require('dotenv'); 
 const {getAuthToken} = require('../util/authHelper');
 const counterAlertPayload = require("../payloads/CounterAlert.json");
 
