@@ -13,5 +13,5 @@ module.exports = {
             },
         ],
     ],
-    globalSetup: './globalSetup.js',
+    globalSetup: './util/globalSetup.js',
 };
