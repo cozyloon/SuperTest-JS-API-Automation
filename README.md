@@ -1,4 +1,4 @@
-# SuperTest-Jest-API-Automation
+# SuperTest & Jest API-Automation with MYSQL2 CRUD Operations
 
 Install dependencies
 ```npm i```
